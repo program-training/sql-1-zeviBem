@@ -5,6 +5,9 @@ SELECT Product_id, Product_name, Category_id, unit_Price from Products
 WHERE unit_Price > 50;
 
 2.
+SELECT * from Customers
+WHERE country IN ('Germany')
+
 3.
 4.
 5.
