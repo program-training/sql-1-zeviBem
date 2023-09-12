@@ -25,6 +25,9 @@ ORDER BY unit_price DESC
 LIMIT 5;
 
 6.
+SELECT * FROM Employees
+WHERE EXTRACT(YEAR FROM birth_date) < 1960;
+
 7.
 8.
 9.
