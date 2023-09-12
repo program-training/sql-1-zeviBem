@@ -9,6 +9,10 @@ SELECT * from Customers
 WHERE country IN ('Germany')
 
 3.
+SELECT * from Orders
+WHERE customer_id IN ('TOMSP')
+
+
 4.
 5.
 6.
