@@ -81,7 +81,12 @@ WHERE units_in_stock < 10 AND discontinued = 1
 SELECT MAX(unit_price) as HighestPrice,
 MIN(unit_price) AS LowestPrice
 FROM Products
+
 19.
+SELECT *
+FROM Orders
+WHERE order_date >= '05-05-1997'
+
 20.
 21.
 22.
