@@ -73,6 +73,10 @@ FROM Customers
 WHERE phone LIKE '%123%';
 
 17.
+SELECT *
+FROM Products
+WHERE units_in_stock < 10 AND discontinued = 1
+
 18.
 19.
 20.
