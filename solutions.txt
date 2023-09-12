@@ -93,4 +93,8 @@ FROM  Products
 GROUP BY category_id
 
 21.
+SELECT category_id ,product_name, unit_price
+FROM Products
+WHERE unit_price > (SELECT AVG(unit_price) FROM Products)
+
 22.
