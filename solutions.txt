@@ -29,6 +29,9 @@ SELECT * FROM Employees
 WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 
 7.
+SELECT * FROM Products
+WHERE units_in_stock = 0
+
 8.
 9.
 10.
