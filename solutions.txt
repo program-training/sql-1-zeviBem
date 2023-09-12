@@ -68,6 +68,10 @@ SELECT AVG(EXTRACT(YEAR FROM hire_date) -
  EXTRACT(YEAR FROM birth_date)) AS average_age
 FROM Employees;
 16.
+SELECT *
+FROM Customers
+WHERE phone LIKE '%123%';
+
 17.
 18.
 19.
