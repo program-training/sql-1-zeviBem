@@ -14,6 +14,10 @@ WHERE customer_id IN ('TOMSP')
 
 
 4.
+SELECT COUNT (customer_id)  AS TotalOrders, customer_id
+from Orders
+GROUP BY customer_id ;
+
 5.
 6.
 7.
