@@ -59,6 +59,9 @@ SELECT *
 FROM Customers
 WHERE contact_title IN ('Owner' ,'CEO' )
 14.
+SELECT *
+FROM Products
+WHERE unit_price = (SELECT MAX(unit_price) FROM Products);
 
 15.
 16.
