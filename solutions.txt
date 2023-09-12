@@ -88,5 +88,9 @@ FROM Orders
 WHERE order_date >= '05-05-1997'
 
 20.
+SELECT category_id DESC,SUM(units_in_stock) AS sum_category
+FROM  Products
+GROUP BY category_id
+
 21.
 22.
