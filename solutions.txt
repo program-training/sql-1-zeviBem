@@ -42,6 +42,9 @@ FROM Order_Details
 GROUP BY product_id;
 
 10.
+SELECT  COUNT(DISTINCT category_id)as countCategory
+FROM Products;
+
 11.
 12.
 13.
