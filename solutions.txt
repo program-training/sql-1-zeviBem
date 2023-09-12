@@ -46,6 +46,10 @@ SELECT  COUNT(DISTINCT category_id)as countCategory
 FROM Products;
 
 11.
+SELECT *
+FROM Products
+WHERE discontinued = 1
+
 12.
 13.
 14.
