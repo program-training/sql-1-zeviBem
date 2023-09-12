@@ -19,6 +19,11 @@ from Orders
 GROUP BY customer_id ;
 
 5.
+SELECT *
+FROM Products
+ORDER BY unit_price DESC
+LIMIT 5;
+
 6.
 7.
 8.
