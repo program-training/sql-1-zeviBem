@@ -51,6 +51,9 @@ FROM Products
 WHERE discontinued = 1
 
 12.
+SELECT COUNT(order_date) as sum_order_date
+FROM Orders
+WHERE EXTRACT(YEAR FROM order_date) >= 1997;
 13.
 14.
 15.
