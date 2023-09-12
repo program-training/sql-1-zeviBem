@@ -33,6 +33,9 @@ SELECT * FROM Products
 WHERE units_in_stock = 0
 
 8.
+SELECT AVG(unit_price) as avergh
+FROM Products
+
 9.
 10.
 11.
