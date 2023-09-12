@@ -55,7 +55,11 @@ SELECT COUNT(order_date) as sum_order_date
 FROM Orders
 WHERE EXTRACT(YEAR FROM order_date) >= 1997;
 13.
+SELECT *
+FROM Customers
+WHERE contact_title IN ('Owner' ,'CEO' )
 14.
+
 15.
 16.
 17.
