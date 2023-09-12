@@ -37,6 +37,10 @@ SELECT AVG(unit_price) as avergh
 FROM Products
 
 9.
+SELECT SUM(unit_price * quantity) as SumUnit, product_id
+FROM Order_Details
+GROUP BY product_id;
+
 10.
 11.
 12.
